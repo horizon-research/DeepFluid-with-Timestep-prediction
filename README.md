@@ -61,6 +61,16 @@ cd scripts
 ./train_PosCorrectionNetwork.py --ts_weight ts_weights.pt
 ```
 ____
+## Rendering your result
+You could refer to [this](https://github.com/intel-isl/DeepLagrangianFluids/blob/master/scenes/README.md). In the example provided by the author, we can render the canyon scene. If you want to render you own scene, you can refer to these tips:  
+
+1. **Import geometry file.** You can import fluid.obj into blender by: file -> import. Under the object properties tab, you can add Customer properties. The most import one is external_files. Put the path to the .npz files or .ply files you get after run the model. This property will be used by the script, so make sure you keep the name of the property consistent.  
+
+2. **Script to load data for an object.** *blender_external_mesh.py* is provided by the author and you can use it to load the particle data into the FluidParticles every time the current frame changes.   
+
+3. **Create your own object.** You may also want to build a complex scene as the canyon one. Here is [a good tutorial](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0) we found to create an object in Blender. Other sources can be found in our [slide](https://docs.google.com/presentation/d/1aJVyZiPywuSXqridX2u4AhRl_u_tFVOwjzDEp6grHoM/edit#slide=id.gd29dfda11b_1_0).  
+
+____
 ## Utilities & Tips
 1. *read_ckpt.py* is used to read weights from checkpoints. You might need it when you want to check about the performance of some intermediate checkpoints. 
 ```
