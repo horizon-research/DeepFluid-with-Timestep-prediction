@@ -1,0 +1,30 @@
+{
+    "walls":[
+        {
+            "path":"../datasets/models/Box.obj",
+            "translation":[
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "fluids":[
+        {
+            "path":"7956p.bgeo",
+            "velocity":[
+                0,
+                0,
+                0
+            ],
+            "translation":[
+                0,
+                3.7,
+                0
+            ],
+            "start":0,
+            "stop":1,
+            "step":1
+        }
+    ]
+}
