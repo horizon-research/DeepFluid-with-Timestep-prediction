@@ -2,6 +2,13 @@
 ## Introduction
 This repository contains a modified version of [Lagrangian Fluid Simulation with Continuous Convolutions](https://github.com/intel-isl/DeepLagrangianFluids). We add a Timestep prediction component with the similar continuous convolution architecture into the original neural network, so that timestep used varies at different step during inference. The code allows you to generate training data (you will need [SPLishSPlash_with_time](https://github.com/horizon-research/SPlisHSPlasH_with_time.git)), train your own model or just run a pretrained model.
 
+### Architecture
+the architecture of original neural network can be illustrated as the following:
+![image](https://github.com/horizon-research/DeepFluid-with-Timestep-prediction/blob/master/readmeimages/original_archi.png)
+
+our modified architecture keeps the manner but makes timestep variable
+![image](https://github.com/horizon-research/DeepFluid-with-Timestep-prediction/blob/master/readmeimages/our_archi.png)
+
 Please refer to [Lagrangian Fluid Simulation with Continuous Convolutions](https://github.com/intel-isl/DeepLagrangianFluids) for installing dependencies and basic usage.
 ______
 ## Running the pretrained model
