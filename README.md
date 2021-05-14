@@ -77,7 +77,7 @@ ____
 cd utils/others
 ./read_ckpt.py --ckpt ckpt-1000.pt --output model_weight.pt --modeltype pos|ts
 ```
-2. *animation.py* is used to visualize the result of prediction. After your *run_network.py* finishes, you will get a folder containing all the results. Just into the folder as the parameter of the function then run the code.
+2. *animation.py* is used to visualize the result of prediction. After your *run_network.py* finishes, you will get a folder containing all the results. Just input the path to the folder as the parameter of the function then run the code.
 
 3. Please refer to the [original neural network](https://github.com/intel-isl/DeepLagrangianFluids) for other things like rendering particles into fluid, network evaluation and more details.
 ____
