@@ -4,7 +4,8 @@ This repository contains a modified version of [Lagrangian Fluid Simulation with
 
 ### Architecture
 the architecture of original neural network can be illustrated as the following:
-<img src="readmeimages/paper_flow_chart.png" height="700" width="450">
+
+<img src="readmeimages/paper_flow_chart.png" height="710" width="460">
 
 our modified architecture keeps the manner but makes timestep variable
 <img src="readmeimages/improved_flow_chart.png" height="760" width="590">
