@@ -4,10 +4,10 @@ This repository contains a modified version of [Lagrangian Fluid Simulation with
 
 ### Architecture
 the architecture of original neural network can be illustrated as the following:
-![image](https://github.com/horizon-research/DeepFluid-with-Timestep-prediction/blob/master/readmeimages/original_archi.png)
+<img src="readmeimages/paper_flow_chart.png" height="700" width="450">
 
 our modified architecture keeps the manner but makes timestep variable
-![image](https://github.com/horizon-research/DeepFluid-with-Timestep-prediction/blob/master/readmeimages/our_archi.png)
+<img src="readmeimages/improved_flow_chart.png" height="760" width="590">
 
 Please refer to [Lagrangian Fluid Simulation with Continuous Convolutions](https://github.com/intel-isl/DeepLagrangianFluids) for installing dependencies and basic usage.
 ______
